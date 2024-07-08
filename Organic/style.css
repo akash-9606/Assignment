@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+     font-size: 3rem;
+     color: black;
+}
+.navbar-brand:hover{
+    color: rgb(255, 72, 0);
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 63, 26);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:rgb(248, 26, 26) ;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.main{
+    background: url(./Main/photo-1494859802809-d069c3b71a8a.jpeg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 5rem;
+    font-weight: 900;
+}
+.btn1{
+    height: 45px;
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color:rgb(248, 26, 26);
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+}
+.h1{
+    font-weight: 900;
+}
+
+.Trending{
+    height: 200px;
+    background-color: rgb(145, 216, 236);
+}
+.Fruits{
+    height: 200px;
+    background-color: rgb(145, 216, 236);
+}
+.Vegetables{
+    height: 200px;
+    background-color: rgb(145, 216, 236);
+}
+
+@media screen and (max-width: 900px){
+    .Trending{
+        width: 30%;
+    }
+
+}
+@media screen and (min-width:767px){
+    Trending{
+        text-align: center;
+    }
+}
+    
+
+    
